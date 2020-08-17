@@ -1,0 +1,15 @@
+DELETE FROM Products.BaseProductCategoryLinkActiveVariants;
+DELETE FROM Products.BaseProductCategoryLink;
+DELETE FROM Products.BaseProductProductListLinkActiveVariants;
+DELETE FROM Products.BaseProductProductListLink;
+DELETE FROM Products.RelationshipLink;
+DELETE FROM Products.RelationshipTypeEntity;
+DELETE FROM Products.PriceListItem;
+DELETE FROM Products.InventoryItem;
+DELETE FROM Products.UnitOfMeasurementEntity;
+DELETE FROM Products.CategoryChannelLink;
+DELETE FROM Products.Category;
+DELETE FROM Products.VariantBundleLink;
+DELETE FROM Products.VariantChannelLink;
+DELETE FROM Products.Variant;
+DELETE FROM Products.BaseProduct;
